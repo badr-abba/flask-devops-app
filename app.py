@@ -5,10 +5,9 @@ app = Flask(__name__)
 
 @app.route('/')
 def home():
-    return "Welcome to DevOps!"
+    return "✅ Welcome to DevOps on Railway!"
 
 if __name__ == '__main__':
-    # استخدم المنفذ الذي توفره Railway
-    port = int(os.environ.get("PORT", 5000))
+    port = int(os.environ.get('PORT', 5000))
     app.run(host='0.0.0.0', port=port)
 
