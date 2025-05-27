@@ -64,12 +64,17 @@ Le projet est déjà configuré avec un workflow GitHub Actions pour automatiser
 ```
 flask-devops-app/
 ├── app.py
-├── requirements.txt
 ├── Dockerfile
+├── .dockerignore
+├── .git/
+├── .gitignore
 ├── .github/
 │   └── workflows/
 │       └── ci.yml
-└── README.md
+├── requirements.txt
+├── README.md
+└── venv/
+
 ```
 
 ---
